@@ -1,0 +1,207 @@
+CL-USER> (comparefibonaccis)
+
+TAIL REC FIBONACCI 10
+
+Evaluation took:
+
+  0.000 seconds of real time
+
+  0.000000 seconds of total run time (0.000000 user, 0.000000 system)
+
+  100.00% CPU
+
+  7,580 processor cycles
+
+  0 bytes consed
+
+  
+
+FIBONACCI 10
+
+Evaluation took:
+
+  0.000 seconds of real time
+
+  0.000000 seconds of total run time (0.000000 user, 0.000000 system)
+
+  100.00% CPU
+
+  24,918 processor cycles
+
+  0 bytes consed
+
+
+=======================================================
+
+TAIL REC FIBONACCI 15
+
+Evaluation took:
+
+  0.001 seconds of real time
+
+  0.000000 seconds of total run time (0.000000 user, 0.000000 system)
+
+  0.00% CPU
+
+  4,068 processor cycles
+
+  0 bytes consed
+  
+
+
+FIBONACCI 15
+
+Evaluation took:
+
+  0.000 seconds of real time
+
+  0.000000 seconds of total run time (0.000000 user, 0.000000 system)
+
+  100.00% CPU
+
+  200,150 processor cycles
+
+  0 bytes consed
+  
+
+
+=======================================================
+
+TAIL REC FIBONACCI 20
+
+Evaluation took:
+
+  0.000 seconds of real time
+
+  0.000000 seconds of total run time (0.000000 user, 0.000000 system)
+
+  100.00% CPU
+
+  4,068 processor cycles
+
+  0 bytes consed
+
+
+
+FIBONACCI 20
+
+Evaluation took:
+
+  0.000 seconds of real time
+
+  0.000000 seconds of total run time (0.000000 user, 0.000000 system)
+
+  100.00% CPU
+
+  2,224,512 processor cycles
+
+  0 bytes consed
+  
+
+
+=======================================================
+
+TAIL REC FIBONACCI 25
+
+Evaluation took:
+
+  0.000 seconds of real time
+
+  0.000000 seconds of total run time (0.000000 user, 0.000000 system)
+
+  100.00% CPU
+
+  3,754 processor cycles
+
+  0 bytes consed
+
+
+
+FIBONACCI 25
+
+Evaluation took:
+
+  0.008 seconds of real time
+
+  0.004000 seconds of total run time (0.004000 user, 0.000000 system)
+
+  50.00% CPU
+
+  24,174,606 processor cycles
+
+  0 bytes consed
+  
+
+
+=======================================================
+
+TAIL REC FIBONACCI 30
+
+Evaluation took:
+
+  0.000 seconds of real time
+
+  0.000000 seconds of total run time (0.000000 user, 0.000000 system)
+
+  100.00% CPU
+
+  4,480 processor cycles
+
+  0 bytes consed
+  
+
+
+FIBONACCI 30
+
+Evaluation took:
+
+  0.060 seconds of real time
+
+  0.060000 seconds of total run time (0.060000 user, 0.000000 system)
+
+  100.00% CPU
+
+  190,951,682 processor cycles
+
+  0 bytes consed
+  
+
+
+=======================================================
+
+TAIL REC FIBONACCI 35
+
+Evaluation took:
+
+  0.000 seconds of real time
+
+  0.000000 seconds of total run time (0.000000 user, 0.000000 system)
+
+  100.00% CPU
+
+  2,904 processor cycles
+
+  0 bytes consed
+  
+
+
+FIBONACCI 35
+
+Evaluation took:
+
+  0.305 seconds of real time
+
+  0.304000 seconds of total run time (0.304000 user, 0.000000 system)
+
+  99.67% CPU
+  972,994,678 processor cycles
+
+  64,512 bytes consed
+  
+
+
+=======================================================
+
+NIL
+
+CL-USER> 

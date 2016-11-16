@@ -1,0 +1,33 @@
+(defun add-1-all (L)
+  (cond ((not (listp L)) nil)
+	((endp L) nil)
+	((not (every 'integerp L)) nil)
+	(t (cons (1+ (first L))(add-1-all (rest L))))))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defun my-replace (e1 e2 L)
+  (cond ((endp L) nil)
+	((equal (first L) e1) (cons e2 (my-replace e1 e2 (rest L))))
+	(t (cons (first L) (my-replace e1 e2 (rest L))))))
+
+
+;;closest one currently
+(defun my-replace (e1 e2 L)
+	   (cond ((not (listp L)) nil)
+		 ((endp L) nil)
+		 ((equal (first L) e1) (cons e2 (my-replace e1 e2 (rest L))))
+		 ((equal (rest L) nil) (cons (my-replace e1 e2 (first L)) (rest L)))
+		 (t (cons (first L) (my-replace e1 e2 (rest L))))))
+my-replace
+(my-replace '(a) '(x) '(a (a) (b (a))))
+(a (x) (b (x)))
+
+;;;; the winner
+
+(defun my-replace (e1 e2 L)
+	   (cond ((not (listp L)) nil)
+		 ((endp L) nil)
+		 ((equal (first L) e1) (cons e2 (my-replace e1 e2 (rest L))))
+		 ((listp (first L)) (cons (my-replace e1 e2 (first L)) 
+					  (my-replace e1 e2 (rest L))))
+		 (t (cons (first L) (my-replace e1 e2 (rest L))))))
